@@ -1,0 +1,42 @@
+ds.box1 {
+  background-color: black;
+}
+.box2 {
+  background-color: black;
+}
+.box3 {
+  background-color: black;
+}
+.box4 {
+  background-color: black;
+}
+.box5 {
+  background-color: black;
+}
+.box6 {
+  background-color: black;
+}
+.box7 {
+  background-color: black;
+}
+.box8 {
+  background-color: black;
+}
+.box9 {
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  height: 300px;
+  width: 300px;
+  background: white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 50x;
+
+  grid-template-areas:
+    "1 2 3"
+    "4 5 6"
+    "7 8 9";
+}
