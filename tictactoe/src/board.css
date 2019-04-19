@@ -1,4 +1,4 @@
-ds.box1 {
+.box1 {
   background-color: black;
 }
 .box2 {
@@ -30,7 +30,7 @@ ds.box1 {
   display: grid;
   height: 300px;
   width: 300px;
-  background: white;
+  background: blue;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 50x;
