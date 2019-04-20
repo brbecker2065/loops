@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import * as rootUserActions from '../../../state/actions'
-import connected from '../../../state/connect'
+import * as rootUserActions from "../../../state/actions";
+import connected from "../../../state/connect";
 
 class SignOut extends React.Component {
   componentDidMount() {
-    this.props.rootUserActions.resetAllData()
+    this.props.rootUserActions.resetAllData();
   }
 
   render() {
-    return null
+    return null;
   }
 }
-
-export default connected([], [rootUserActions])(SignOut)
+<div>SignOut</div>;
+export default connected([], [rootUserActions])(SignOut);
