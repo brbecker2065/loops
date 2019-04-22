@@ -1,5 +1,7 @@
 .box1 {
   background-color: black;
+  color: aliceblue;
+  justify-items: center;
 }
 .box2 {
   background-color: black;
@@ -33,10 +35,28 @@
   background: blue;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 50x;
+  grid-gap: 5px;
 
   grid-template-areas:
     "1 2 3"
     "4 5 6"
     "7 8 9";
+}
+.container2 {
+  background-color: aliceblue;
+}
+.xtoken {
+  color: red;
+  font-size: 60px;
+  max-height: 60;
+}
+
+.otoken {
+  color: red;
+  font-size: 100px;
+}
+button {
+  background-color: red;
+  min-height: 40px;
+  font-size: 40px;
 }
