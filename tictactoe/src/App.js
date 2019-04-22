@@ -15,7 +15,7 @@ class App extends Component {
         <div className="box8" />
         <div className="box9" />
         <div className="xtoken" />
-        <button value="x">
+        <button click value="x">
           x
           <img
             src="http://i.imgur.com/60PVLis.png"
@@ -33,6 +33,11 @@ class App extends Component {
   }
 }
 
-addEventHandler.button("click"=button(value)) 
+//addEventHandler.button("click"=button(value))
+const button = document.querySelector("button");
+
+button.addEventListener("click", event => {
+  button.innerHTML = `Click count: ${event.detail}`;
+});
 
 export default App;
