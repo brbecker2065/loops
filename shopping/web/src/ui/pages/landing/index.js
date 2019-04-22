@@ -6,7 +6,7 @@ import { protectedRoute } from "../../../process/users/auth";
 
 class LandingPage extends Component {
   render() {
-    return <div>this is our landing page</div>;
+    return <div className="container">this is our landing page</div>;
   }
 }
 
